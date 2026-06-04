@@ -82,7 +82,7 @@ Lightweight SLAM fusing odometry, IMU, and bearing-only ArUco observations. Demo
 ### 🗺️ Kinodynamic Frontier Exploration Planner
 RRT + tensioned B-spline smoothing + Pure Pursuit controller for continuous forward-motion exploration of unknown maps. Achieved full coverage in 65.7% of 35 simulation runs with under 1 forced stop per run on average.
 
-### 🔬 Urban Rail Network Optimization · [Taylor & Francis 2024](https://www.taylorfrancis.com/chapters/edit/10.1201/9781003530190-25/) · [arXiv](https://arxiv.org/abs/2407.17508)
+### 🔬 Urban Rail Network Optimization · [Taylor & Francis 2024](https://www.taylorfrancis.com/chapters/edit/10.1201/9781003530190-25/) · [arXiv](https://arxiv.org/abs/2407.04087)
 AI-driven optimization framework for urban rail network planning integrating GIS spatial data with nature-inspired algorithms (PSO, GA). Evaluated across real urban landscape datasets and published as a Taylor & Francis book chapter.
 
 ### 🛰️ Super-Resolution for Aerial Imagery · [IEEE ICCSC 2024](https://ieeexplore.ieee.org/abstract/document/10830430)
@@ -100,8 +100,8 @@ GAN-based super-resolution architecture benchmarked against existing works on ae
 [![Taylor & Francis](https://img.shields.io/badge/Taylor_%26_Francis-0C2340?style=flat&logoColor=white)](https://www.taylorfrancis.com/chapters/edit/10.1201/9781003530190-25/)
 
 - **Generation of Super-Resolved Images Using Deep Neural Networks** — [IEEE ICCSC 2024](https://ieeexplore.ieee.org/abstract/document/10830430)
-- **Advanced AI Strategy for Urban Rail Network Design using Nature-Inspired Algorithms** — [Taylor & Francis 2024](https://www.taylorfrancis.com/chapters/edit/10.1201/9781003530190-25/) · [arXiv](https://arxiv.org/abs/2407.17508)
-- **AI Based Navigation in Quasi Structured Environment** — [arXiv 2023](https://arxiv.org/abs/2407.04087)
+- **Advanced AI Strategy for Urban Rail Network Design using Nature-Inspired Algorithms** — [Taylor & Francis 2024](https://www.taylorfrancis.com/chapters/edit/10.1201/9781003530190-25/) · [arXiv](https://arxiv.org/abs/2407.04087)
+- **AI Based Navigation in Quasi Structured Environment** — [arXiv 2023](https://arxiv.org/abs/2407.17508)
 
 ---
 
