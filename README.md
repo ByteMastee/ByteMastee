@@ -6,7 +6,7 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/Hariram-Sampath-Kumar)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:s.hariram1001@gmail.com)
-[![Google Scholar](https://img.shields.io/badge/Google_Scholar-4285F4?style=flat&logo=googlescholar&logoColor=white)][](https://scholar.google.com/citations?user=5X3hs8QAAAAJ&hl=en)]
+[![Google Scholar](https://img.shields.io/badge/Google_Scholar-4285F4?style=flat&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=5X3hs8QAAAAJ&hl=en)
 [![Profile Views](https://komarev.com/ghpvc/?username=ByteMastee&color=0e75b6&style=flat&label=Profile+Views)](https://github.com/ByteMastee)
 
 *Budapest, Hungary*
