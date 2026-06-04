@@ -105,18 +105,6 @@ GAN-based super-resolution architecture benchmarked against existing works on ae
 
 ---
 
-## GitHub Stats
-
-<div align="center">
-
-![Hariram's GitHub Stats](https://github-readme-stats.vercel.app/api?username=ByteMastee&show_icons=true&theme=dark&hide_border=true&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&bg_color=0d1117)
-&nbsp;&nbsp;
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ByteMastee&layout=compact&theme=dark&hide_border=true&title_color=58a6ff&text_color=c9d1d9&bg_color=0d1117)
-
-</div>
-
----
-
 <div align="center">
 
 *Erasmus Mundus Scholar · IEEE Published · State-Funded Researcher · Smart India Hackathon 2022 Finalist*
