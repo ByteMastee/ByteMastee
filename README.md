@@ -19,7 +19,7 @@
 
 I started in **Mechatronics Engineering** — building swarm robots from scratch with microcontrollers, IR/PIR sensors, and inter-robot transceivers, programming CNC machines with Arduino, and working with PLC automation systems. That foundation in hardware-software integration pushed me toward AI, where I worked on computer vision pipelines, GAN-based super-resolution, and nature-inspired optimization.
 
-Today, I am an **ERASMUS MUNDUS IFRoS scholar** (UdG, Spain & ELTE, Hungary) — one of the most competitive fully-funded robotics master's programmes in Europe. My current work sits at the intersection of **vision–language models and autonomous indoor navigation**, developing ROS-based perception–language pipelines for real robots at EUROKNOWS, Hungary.
+Today, I am an **ERASMUS MUNDUS IFRoS scholar** (UdG, Spain & ELTE, Hungary) — one of the most competitive fully-funded robotics master's programmes in Europe. My current work at **EUROKNOWS, Hungary** proposes and evaluates three progressively complex semantic mapping pipelines for mobile robotics — integrating object detection, segmentation, and vision–language models for context-aware scene understanding and natural-language interpretation in real-world environments.
 
 Across this journey I have implemented systems end-to-end: from bare-metal embedded code to deep learning training pipelines, from kinematic controllers to EKF-SLAM, from path planners to speech-driven robot navigation — always on real or simulated hardware, always in ROS.
 
