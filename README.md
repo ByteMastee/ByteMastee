@@ -6,7 +6,7 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/Hariram-Sampath-Kumar)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:s.hariram1001@gmail.com)
-[![Google Scholar](https://img.shields.io/badge/Google_Scholar-4285F4?style=flat&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=5X3hs8QAAAAJ&hl=en)
+[![Google Scholar](https://img.shields.io/badge/Google_Scholar-4285F4?style=flat&logo=googlescholar&logoColor=white)](https://scholar.google.com)
 [![Profile Views](https://komarev.com/ghpvc/?username=ByteMastee&color=0e75b6&style=flat&label=Profile+Views)](https://github.com/ByteMastee)
 
 *Budapest, Hungary*
@@ -19,7 +19,7 @@
 
 I started in **Mechatronics Engineering** — building swarm robots from scratch with microcontrollers, IR/PIR sensors, and inter-robot transceivers, programming CNC machines with Arduino, and working with PLC automation systems. That foundation in hardware-software integration pushed me toward AI, where I worked on computer vision pipelines, GAN-based super-resolution, and nature-inspired optimization.
 
-Today, I am an **ERASMUS MUNDUS IFRoS scholar** (UdG, Spain & ELTE, Hungary) — one of the most competitive fully-funded robotics master's programmes in Europe. My current work at **EUROKNOWS, Hungary** proposes and evaluates three progressively complex semantic mapping pipelines for mobile robotics — integrating object detection, segmentation, and vision–language models for context-aware scene understanding and natural-language interpretation in real-world environments.
+Today, I am an **ERASMUS MUNDUS IFRoS scholar** (UdG, Spain & ELTE, Hungary) — one of the most competitive fully-funded robotics master's programmes in Europe. At **EUROKNOWS, Hungary**, I completed my thesis proposing and evaluating three progressively complex semantic mapping pipelines for mobile robotics — from a YOLO26 classical baseline to SAM2 + Qwen2.5-VL 3B open-vocabulary perception — improving Semantic Label Accuracy from 0.667 to 1.000, validated across 5 simulation environments and a real-world lab setting.
 
 Across this journey I have implemented systems end-to-end: from bare-metal embedded code to deep learning training pipelines, from kinematic controllers to EKF-SLAM, from path planners to speech-driven robot navigation — always on real or simulated hardware, always in ROS.
 
@@ -34,7 +34,7 @@ Across this journey I have implemented systems end-to-end: from bare-metal embed
 - **Perception & Navigation pipelines** for mobile robots — RGB-D, LiDAR, ArUco, EKF-SLAM
 - **Kinematic controllers** for mobile manipulators using task-priority redundancy resolution
 - **Kinodynamic planners** combining RRT, spline smoothing, and Pure Pursuit control
-- **Vision–Language systems** for semantic scene understanding and instruction grounding
+- **Vision–Language semantic mapping** — YOLO26, SAM2, Qwen2.5-VL 3B pipelines with ray casting + triangulation + DBSCAN spatial estimation, validated sim and real-world
 
 ---
 
@@ -70,6 +70,13 @@ Across this journey I have implemented systems end-to-end: from bare-metal embed
 
 ## Selected Projects
 
+### 🧠 [VLM Thesis — Semantic Mapping for Autonomous Indoor Robots](https://github.com/ByteMastee/vlm-thesis)
+Designed and benchmarked three progressively complex semantic mapping pipelines for mobile robotics — from a YOLO26 classical baseline to SAM2 open-vocabulary segmentation combined with Qwen2.5-VL 3B. Shared spatial backbone uses ray casting, pairwise triangulation, and DBSCAN clustering to estimate 2D object positions from image-plane detections. Improved Semantic Label Accuracy from 0.667 to 1.000; Pipeline 3 achieved MCS = 1.000 in real-world deployment. Validated across 5 Gazebo simulation environments + 1 real-world lab setting using a 5-metric evaluation framework. Post-thesis extensions include dual-camera architecture, live streaming semantic mapping, and an LLM orchestrator (Llama 3.2 3B via Ollama) for natural-language-to-Nav2-goal resolution.
+
+**Stack:** ROS2 Humble · YOLO26 · SAM2 · Qwen2.5-VL 3B · Gazebo · Python · Docker
+
+---
+
 ### 🗣️ [OTNav — Speech-Commanded Object Navigation](https://github.com/IFRoS-ELTE/OTNav)
 A mobile robot that receives spoken commands (*"go to the red chair"*), detects and localizes the object in 3D using RGB-D + YOLO, and navigates safely — with active frontier-based search if the object is not visible. Built on AgileX SCOUT Mini with ROS, running end-to-end in real-time.
 
@@ -82,7 +89,7 @@ Lightweight SLAM fusing odometry, IMU, and bearing-only ArUco observations. Demo
 ### 🗺️ Kinodynamic Frontier Exploration Planner
 RRT + tensioned B-spline smoothing + Pure Pursuit controller for continuous forward-motion exploration of unknown maps. Achieved full coverage in 65.7% of 35 simulation runs with under 1 forced stop per run on average.
 
-### 🔬 Urban Rail Network Optimization · [Taylor & Francis 2024](https://www.taylorfrancis.com/chapters/edit/10.1201/9781003530190-25/) · [arXiv](https://arxiv.org/abs/2407.04087)
+### 🔬 Urban Rail Network Optimization · [Taylor & Francis 2024](https://www.taylorfrancis.com/chapters/edit/10.1201/9781003530190-25/) · [arXiv](https://arxiv.org/abs/2407.17508)
 AI-driven optimization framework for urban rail network planning integrating GIS spatial data with nature-inspired algorithms (PSO, GA). Evaluated across real urban landscape datasets and published as a Taylor & Francis book chapter.
 
 ### 🛰️ Super-Resolution for Aerial Imagery · [IEEE ICCSC 2024](https://ieeexplore.ieee.org/abstract/document/10830430)
@@ -100,8 +107,20 @@ GAN-based super-resolution architecture benchmarked against existing works on ae
 [![Taylor & Francis](https://img.shields.io/badge/Taylor_%26_Francis-0C2340?style=flat&logoColor=white)](https://www.taylorfrancis.com/chapters/edit/10.1201/9781003530190-25/)
 
 - **Generation of Super-Resolved Images Using Deep Neural Networks** — [IEEE ICCSC 2024](https://ieeexplore.ieee.org/abstract/document/10830430)
-- **Advanced AI Strategy for Urban Rail Network Design using Nature-Inspired Algorithms** — [Taylor & Francis 2024](https://www.taylorfrancis.com/chapters/edit/10.1201/9781003530190-25/) · [arXiv](https://arxiv.org/abs/2407.04087)
-- **AI Based Navigation in Quasi Structured Environment** — [arXiv 2023](https://arxiv.org/abs/2407.17508)
+- **Advanced AI Strategy for Urban Rail Network Design using Nature-Inspired Algorithms** — [Taylor & Francis 2024](https://www.taylorfrancis.com/chapters/edit/10.1201/9781003530190-25/) · [arXiv](https://arxiv.org/abs/2407.17508)
+- **AI Based Navigation in Quasi Structured Environment** — [arXiv 2023](https://arxiv.org/abs/2407.04087)
+
+---
+
+## GitHub Stats
+
+<div align="center">
+
+![Hariram's GitHub Stats](https://github-readme-stats.vercel.app/api?username=ByteMastee&show_icons=true&theme=dark&hide_border=true&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&bg_color=0d1117)
+&nbsp;&nbsp;
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ByteMastee&layout=compact&theme=dark&hide_border=true&title_color=58a6ff&text_color=c9d1d9&bg_color=0d1117)
+
+</div>
 
 ---
 
