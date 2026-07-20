@@ -81,13 +81,13 @@ Designed and benchmarked three progressively complex semantic mapping pipelines 
 A mobile robot that receives spoken commands (*"go to the red chair"*), detects and localizes the object in 3D using RGB-D + YOLO, and navigates safely — with active frontier-based search if the object is not visible. Built on AgileX SCOUT Mini with ROS, running end-to-end in real-time.
 
 ### 🤖 Mobile Manipulator — Task-Priority Kinematic Control
-Full pick-and-place system on TurtleBot2 + uArm Swift Pro using hierarchical null-space control, ArUco marker detection, and dead reckoning. 11 sequentially ordered tasks executed autonomously in Stonefish simulation.
+Full pick-and-place system on TurtleBot2 + uArm Swift Pro using hierarchical null-space control, ArUco marker detection, and dead reckoning. 11 sequentially ordered tasks executed autonomously in Stonefish simulation and deployed on real hardware.
 
 ### 📍 Bearing-Only EKF-SLAM (FEMKSLAM)
-Lightweight SLAM fusing odometry, IMU, and bearing-only ArUco observations. Demonstrated robust re-localization after deliberate high-speed drift and wall collision — map orientation remained accurate throughout.
+Lightweight SLAM fusing odometry, IMU, and bearing-only ArUco observations. Demonstrated robust re-localization after deliberate high-speed drift and wall collision which was validated in simulation and real-world indoor environments.
 
 ### 🗺️ Kinodynamic Frontier Exploration Planner
-RRT + tensioned B-spline smoothing + Pure Pursuit controller for continuous forward-motion exploration of unknown maps. Achieved full coverage in 65.7% of 35 simulation runs with under 1 forced stop per run on average.
+RRT + tensioned B-spline smoothing + Pure Pursuit controller for continuous forward-motion exploration of unknown maps. Achieved full coverage in 65.7% of 35 simulation runs with under 1 forced stop per run on average, also deployed and tested on a real TurtleBot platform.
 
 ### 🔬 Urban Rail Network Optimization · [Taylor & Francis 2024](https://www.taylorfrancis.com/chapters/edit/10.1201/9781003530190-25/) · [arXiv](https://arxiv.org/abs/2407.17508)
 AI-driven optimization framework for urban rail network planning integrating GIS spatial data with nature-inspired algorithms (PSO, GA). Evaluated across real urban landscape datasets and published as a Taylor & Francis book chapter.
@@ -96,7 +96,7 @@ AI-driven optimization framework for urban rail network planning integrating GIS
 GAN-based super-resolution architecture benchmarked against existing works on aerial military imagery datasets — outperformed state-of-the-art on PSNR/SSIM metrics.
 
 ### 🤖 Intelligent Swarm Robots for Surveillance
-5 autonomous field robots with PSO-based swarm intelligence, IR/PIR sensing, and transceiver-based inter-robot communication. Bachelor's dissertation — state-funded research grant recipient.
+5 autonomous field robots with PSO-based swarm intelligence, IR/PIR sensing, and transceiver-based inter-robot communication. Bachelor's dissertation: state-funded research grant recipient.
 
 ---
 
